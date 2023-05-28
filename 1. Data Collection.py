@@ -71,4 +71,4 @@ final_df["THBPrice"] = final_df["Price"] * final_df["conversion_rate"]
 final_df = final_df.drop("date", axis=1)
 
 # save to csv
-final_df.to_csv("output.csv", index=False)
+final_df.to_csv("output.csv", index=False) 
